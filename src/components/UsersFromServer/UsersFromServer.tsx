@@ -1,7 +1,7 @@
 import './UsersFromServer.css'
 import { useEffect, useState } from "react";
-import { User } from "../../../interfaces/UsersInterface";
-import UserCard from "../../UserCard/UserCard";
+import { User } from "../../interfaces/UsersInterface";
+import UserCard from "../UserCard/UserCard";
 
 // import lodash from 'lodash'
 

@@ -1,10 +1,12 @@
 import "./App.css";
-import UsersFromServer from "./components/Example/UsersFromServer/UsersFromServer";
+import MainContainer from "./components/CardsContainer/CardsContainer";
+
 
 function App() {
   return (
+
     <>
-    <UsersFromServer></UsersFromServer>
+    <MainContainer></MainContainer>
     </>
   );
 }
