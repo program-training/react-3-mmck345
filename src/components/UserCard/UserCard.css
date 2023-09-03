@@ -1,0 +1,41 @@
+.user-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #e9fcf554;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.4s;
+  margin: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: start;
+  width: 300px;
+  /* height: 500px; */
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.user-card h2 {
+  margin-top: 0;
+}
+
+.user-card h3 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin: 15px 0;
+}
+
+.user-card p {
+  line-height: 1.5;
+  margin: 1px 0 0;
+}
+
+.user-card 
+
+.user-card p:first-of-type {
+  margin-top: 0;
+}

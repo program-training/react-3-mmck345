@@ -1,0 +1,53 @@
+.timer-div {
+    position: sticky;
+    top: 33%;
+    left: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    min-width: 300px;
+    background-color: rgb(109, 109, 109);
+    border-radius: 50%;
+}
+
+.timer-div h3 {
+    justify-self: flex-start;
+    margin-top: 20px;
+}
+
+
+#div-bottom {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dives-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-timer {
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.input-count {
+    margin: 25px;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
